@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nederlandse Spoorwegen Verhalensite - Home</title>
+    <meta name="description" content="Once Upon a Trein...">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen,handheld">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img class="logo " href="index.html" alt="NS-Logo" src="images/nslogo.png"></a>
+        <form>
+            <img class="vergrootglas" alt="Vergrootglas" src="images/magnifier12.png">
+            <!--<label for="Zoeken">Search:  </label>-->
+            <input placeholder="Search..." type="search">
+            <input type="submit" value="Find">
+        </form>
+        <section>
+            <img class="mannetje" alt="Mannetje" src="images/account.png">
+            <a href="login.html"><h1>Login</h1></a>
+        </section>
+    </header>
+    <figure>
+        <img alt="Foto Trein" src="images/wallpaper.jpg">
+        <aside class="titel">
+            <h1>Once Upon a Trein</h1>
+            <p>Maak van elke reis weer een avontuur!</p>
+        </aside>
+    </figure>
+
+    <aside class="filterbalk">
+        <form>
+            <label for="Sort">Sort by:</label>
+            <select name="sort">
+                <option value="rating">Rating</option>
+                <option value="comments">Comments</option>
+                <option value="views" selected>Views</option>
+                <option value="favorites">Favorites</option>
+                <option value="numerical">Numberical</option>
+                <option value="alphabetic">Alphabetic</option>
+                <option value="date posted">Date posted</option>
+                <option value="perspective">Perspective</option>
+                <option value="target audience">Target Audience</option>
+            </select>
+            <input type="submit" value="Sort">
+        </form>
+        <form class="taglijst">
+            <label for="Tags">Tags:</label>
+            <select name="Tags">
+                <option value="history">History</option>
+                <option value="suspense">Suspense</option>
+                <option value="funny">Funny</option>
+                <option value="swearing">Swearing</option>
+                <option value="emotions">Emotions</option>
+                <option value="confusion">Confusion</option>
+                <option value="adventure">Adventure</option>
+                <option value="food">Food</option>
+                <option value="travel">Travel</option>
+                <option value="showall" selected>Show all Tags</option>
+            </select>
+            <input type="submit" value="Filter">
+        </form>
+        <form>
+            <select name="Higher First">
+                <option value="higher" selected>Higher First</option>
+                <option value="lower">Lower First</option>
+                <input type="submit" value="Change">
+            </select>
+        </form>
+        <form class=storyperpage>
+            <p>Stories per page:</p>
+            <select name="storiesperpages">
+                <option value="6" selected>6</option>
+                <option value="12">12</option>
+                <option value="24">24</option>
+                <option value="48">48</option>
+            </select>
+            <input type="submit" value="Change">
+        </form>
+    </aside>
+
+    <article>
+        <section class="s1">
+            <h1><b>88. Klumperbeven</b></h1>
+            <aside>
+                <p>posted on 20/6/2011 by Molovich</p>
+                <img class="heart" alt="Heart" src="images/favorite21.png">
+                <img class="star" alt="Star" src="images/star4.png">
+            </aside>
+            <p class="verhaal">Ik bus de stap uit en been met gepaste zwind over het stationsplein. In mijn zoon ligt de kinderwagen te slapen. Het pijpt regenstelen en er guurt een winderige waai. De mensen keren in zichzelf gelopen, kra...</p>
+            <p class="metadata">3 Comments, 452x viewed, 84x favorited</p>
+            <footer>
+                <p class="tag">Strange</p>
+                <p class="tag">Confusion</p>
+                <p class="tag">Funny</p>
+                <a class="leesknop" href="klumperbeven.html">
+                    <button type="button">Read</button>
+                </a>
+            </footer>
+        </section>
+
+        <section class="s2">
+            <h1><b>72. Western</b></h1>
+            <aside>
+                <p>posted on 23/5/2011 by Molovich</p>
+                <img class="heart" alt="Heart" src="images/favorite21.png">
+                <img class="star" alt="Star" src="images/star3.png">
+            </aside>
+            <p class="verhaal">Een stofwolk ontneemt het zicht op de wegrijdende postkoets, die mij net heeft afgezet voor het station van dit door god verlaten prairydorp. Een tumbleweed tuimelt over het zanderige plein. Het...</p>
+            <p class="metadata">3 Comments, 320x viewed, 39x favorited</p>
+            <footer>
+                <p class="tag">Suspense</p>
+                <p class="tag">History</p>
+                <p class="tag">Danger</p>
+                <a class="leesknop" href="western.html">
+                    <button type="button">Read</button>
+                </a>
+            </footer>
+        </section>
+
+        <section class="s3">
+            <h1><b>50. Gefrustreerd</b></h1>
+            <aside>
+                <p>posted on 12/4/2011 by Molovich</p>
+                <img class="heart" alt="Heart" src="images/heart.png">
+                <img class="star" alt="Star" src="images/star4.png">
+            </aside>
+            <p class="verhaal">Ik stap uit die godverdomde stinkbus. De mensen krioelen als mieren over het stationsplein. Ik wil ze vertrappen onder m’n schoenen. Vermorzelen. Verbrijzelen. De klootzakken en kakkerlakken. Met hu...</p>
+            <p class="metadata">4 Comments, 642x viewed, 25x favorited</p>
+            <footer>
+                <p class="tag">Swearing</p>
+                <p class="tag">Frustration</p>
+                <p class="tag">Emotions</p>
+                <a class="leesknop" href="gefrustreerd.html">
+                    <button type="button">Read</button>
+                </a>
+            </footer>
+        </section>
+    </article>
+</body>
+
+</html>
