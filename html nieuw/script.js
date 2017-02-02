@@ -1,11 +1,12 @@
-/* 1. selecteer elementen met document.querySelector */
-var footer = document.querySelector('.leesknop'); // first section element
-var button = document.querySelector('.leesknop > button');
+window.onload=function(){
 
-var dance = function () {
-  /* 3. toggle een class op een element, dit triggert een CSS Transition (zie CSS: footer.dance) */
-    footer.classList.toggle('dancing')
-}
+var container = document.querySelector('.heart');
 
-/* 2. voeg een event toe aan een element */
-button.addEventListener('click', dance);
+container.addEventListener('mouseenter', function(){
+        this.classList.remove('heart');
+        this.classList.add('second');
+})
+container.addEventListener('mouseleave', function(){
+        this.classList.add('heart');
+        this.classList.remove('second');
+})}
